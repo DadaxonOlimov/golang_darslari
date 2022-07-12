@@ -27,10 +27,10 @@ func testIfElse() {
 	}
 }
 
-func testSwitch1() {
-	weekday := time.Now().Weekday()
+func Switch1() {
+	weekday := time.Now().Weekday() 
 	switch weekday {
-	case 1:
+	case 1 :
 		fmt.Println("Dushanba")
 	case 2:
 		fmt.Println("Seshanba")
@@ -50,8 +50,8 @@ func testSwitch1() {
 }
 
 func testSwitch2() {
-	var userChoice string = "olti"
-	switch userChoice {
+	var user = "ikki"
+	switch user {
 	case "bir":
 		fmt.Println("C#")
 	case "ikki", "uch":

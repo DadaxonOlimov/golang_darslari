@@ -2,20 +2,11 @@ package main
 
 import "fmt"
 
-func main() {
-	var x int = 5
-	var y int = 12
-	var sum = x + y
-	fmt.Println(sum)
+func main(){
+	var x,y int = 3,6
+var sum = x + y
+fmt.Println(sum)
 }
-func mains() {
-	x := 3
-	y := 5
-	sum := x + y
-	fmt.Println(sum)
-}
-
-
 
 // // arifmetik operatorlar
 
@@ -47,40 +38,4 @@ func mains() {
 // 	result5 := a % b
 // 	fmt.Printf("\na %% b ning natijasi = %d", result5)
 // }
-// Footer
-// © 2022 GitHub, Inc.
-// Footer navigation
-// Terms
-// Privacy
-// Security
-// Status
-// Docs
-// Contact GitHub
-// Pricing
-// API
-// Training
-// Blog
-// About
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Footer]
