@@ -60,3 +60,4 @@ func testSwitch2() {
 		fmt.Println("TypeScript")
 	}
 }
+

@@ -3,11 +3,10 @@ package main
 
 import (
 	"fmt"
-	"strconv"
 )
 
 func main() {
-	TESTfor2()
+	test()
 } 
 func testfor1() {
 	for i :=19 ; i < 22; i++ {
@@ -21,12 +20,15 @@ func testfor1() {
 
 
 func TESTfor() {
-	i := 1
-	for i < 10 {
-		fmt.Println("Alhamdulillah " + strconv. Itoa( i))
-	i++
+	n := 6
+	i := 0
+	for i< n {
+		fmt.Println("hello DAddy Olimov")
+		i++
 	}
-}
+	fmt.Printf("the value of i is %d/n" , i)
+	}
+
 
 func TESTfor2() {
 	// myarr :=  [3]string {"osmon" , "yer" ,"quyosh"}
@@ -40,3 +42,5 @@ func TESTfor2() {
 
 	}
 }
+
+
